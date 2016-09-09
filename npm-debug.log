@@ -1,0 +1,53 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.1.2/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.1.2/bin/npm',
+1 verbose cli   'version',
+1 verbose cli   'patch' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.2
+4 info git [ 'status', '--porcelain' ]
+5 info preversion filesizer@1.0.1
+6 verbose version.write data { name: 'filesizer',
+6 verbose version.write   version: '1.0.1',
+6 verbose version.write   description: 'Microserivice to get an uploaded file\'s size',
+6 verbose version.write   main: 'server.js',
+6 verbose version.write   scripts: { test: 'test.js' },
+6 verbose version.write   repository:
+6 verbose version.write    { type: 'git',
+6 verbose version.write      url: 'git+https://github.com/SergeySapr/filesizer.git' },
+6 verbose version.write   keywords: [ 'freecodecamp', 'javascript', 'multer' ],
+6 verbose version.write   author: 'Sergey Saprykin',
+6 verbose version.write   license: 'ISC',
+6 verbose version.write   bugs: { url: 'https://github.com/SergeySapr/filesizer/issues' },
+6 verbose version.write   homepage: 'https://github.com/SergeySapr/filesizer#readme',
+6 verbose version.write   dependencies:
+6 verbose version.write    { 'body-parser': '^1.15.2',
+6 verbose version.write      express: '^4.14.0',
+6 verbose version.write      multer: '^1.2.0',
+6 verbose version.write      numeral: '^1.5.3',
+6 verbose version.write      path: '^0.12.7',
+6 verbose version.write      pug: '^0.1.0' } } to package.json
+7 info version filesizer@1.0.1
+8 info git [ 'add', 'package.json' ]
+9 verbose stack Error: Command failed: git add package.json
+9 verbose stack fatal: Not a git repository (or any of the parent directories): .git
+9 verbose stack
+9 verbose stack     at ChildProcess.exithandler (child_process.js:203:12)
+9 verbose stack     at emitTwo (events.js:87:13)
+9 verbose stack     at ChildProcess.emit (events.js:172:7)
+9 verbose stack     at maybeClose (internal/child_process.js:818:16)
+9 verbose stack     at Socket.<anonymous> (internal/child_process.js:319:11)
+9 verbose stack     at emitOne (events.js:77:13)
+9 verbose stack     at Socket.emit (events.js:169:7)
+9 verbose stack     at Pipe._onclose (net.js:469:12)
+10 verbose cwd /home/ubuntu/workspace/filesizer
+11 error Linux 4.2.0-c9
+12 error argv "/home/ubuntu/.nvm/versions/node/v4.1.2/bin/node" "/home/ubuntu/.nvm/versions/node/v4.1.2/bin/npm" "version" "patch"
+13 error node v4.1.2
+14 error npm  v2.14.4
+15 error code 128
+16 error Command failed: git add package.json
+16 error fatal: Not a git repository (or any of the parent directories): .git
+17 error If you need help, you may report this error at:
+17 error     <https://github.com/npm/npm/issues>
+18 verbose exit [ 1, true ]

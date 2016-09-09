@@ -1,0 +1,32 @@
+{
+  "name": "filesizer",
+  "version": "1.0.1",
+  "description": "Microserivice to get an uploaded file's size",
+  "main": "server.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeySapr/filesizer.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "javascript",
+    "multer"
+  ],
+  "author": "Sergey Saprykin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeySapr/filesizer/issues"
+  },
+  "homepage": "https://github.com/SergeySapr/filesizer#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "multer": "^1.2.0",
+    "numeral": "^1.5.3",
+    "path": "^0.12.7",
+    "pug": "^0.1.0"
+  }
+}

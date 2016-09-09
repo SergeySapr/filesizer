@@ -1,6 +1,6 @@
 {
   "name": "filesizer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Microserivice to get an uploaded file's size",
   "main": "server.js",
   "scripts": {
@@ -26,7 +26,6 @@
     "express": "^4.14.0",
     "jade": "^1.11.0",
     "multer": "^1.2.0",
-    "numeral": "^1.5.3",
     "path": "^0.12.7",
     "pug": "^0.1.0"
   }

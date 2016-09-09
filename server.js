@@ -1,8 +1,7 @@
-   var express = require('express')
+   var express = require('express');
    var multer = require('multer'),
        bodyParser = require('body-parser'),
-       path = require('path'),
-       numeral = require('numeral')
+       path = require('path');
 
    var app = express();
    app.use(bodyParser.json());
@@ -12,7 +11,7 @@
 
    app.get('/', function(req, res) {
        res.render('index', {
-           title: "Upload a file to get it's size"
+           title: "Submit a file to get it's size in kb"
        });
    });
 
@@ -20,7 +19,7 @@
        dest: './uploads/'
    }).single('upl'), function(req, res) {
        console.log(req.file); 
-       res.write("Filesize (kb): "+ numeral(req.file.size).format("0.0"));
+       res.write(JSON.stringify({"filesize":req.file.size}));
        res.end();
    });
 
